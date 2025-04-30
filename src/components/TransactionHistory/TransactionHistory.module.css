@@ -1,0 +1,27 @@
+.transactionTable {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  font-family: Arial, sans-serif;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.transactionTable thead {
+  background-color: #3f3f3f;
+  color: white;
+}
+
+.transactionTable th,
+.transactionTable td {
+  padding: 12px;
+  border: 1px solid #262626;
+  text-align: center;
+}
+
+.transactionTable tbody tr:nth-child(even) {
+  background-color: #a8a8a8;
+}
+
+.transactionTable tbody tr:hover {
+  background-color: #dcdcdc;
+}
