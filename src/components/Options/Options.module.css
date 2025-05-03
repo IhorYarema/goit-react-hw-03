@@ -1,8 +1,0 @@
-.options {
-  display: flex;
-  gap: 12px;
-}
-
-.option {
-  text-transform: capitalize;
-}

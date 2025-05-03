@@ -1,0 +1,27 @@
+.fieldset {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 16px 32px;
+  border-radius: 16px;
+}
+
+.label {
+  display: flex;
+}
+
+.field {
+  width: 300px;
+  padding: 4px 6px;
+}
+
+.btn {
+  width: 150px;
+  height: 60;
+  padding: 8px;
+}
+
+.error {
+  color: red;
+  font-size: 14px;
+}

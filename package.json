@@ -1,5 +1,5 @@
 {
-  "name": "goit-react-hw-01",
+  "name": "goit-react-hw-03",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -10,9 +10,13 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "formik": "^2.4.6",
+    "nanoid": "^5.1.5",
     "prop-types": "^15.8.1",
     "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "react-dom": "^19.0.0",
+    "use-debounce": "^10.0.4",
+    "yup": "^1.6.1"
   },
   "devDependencies": {
     "@eslint/js": "^9.21.0",
